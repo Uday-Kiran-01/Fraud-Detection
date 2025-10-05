@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore large data and models
+data/input/
+data/output/models/
+data/output/features/
+data/output/eda/
+data/output/stream/
+*.pkl
+*.csv
+*.jsonl
+*.json
+*.png
+
+# Ignore local config backups
+.DS_Store
